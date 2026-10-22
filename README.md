@@ -3,7 +3,7 @@
 These two tools help you find PHP usage and locate PHP-related installations and files from two complementary viewpoints:
 
 - **`php_site_audit.py`** checks websites from the outside for publicly visible PHP clues and advertised versions.
-- **`php-inventory-kit.zip`** contains `php_inventory.py`, which runs on a Linux server to find PHP runtimes, modules, shared libraries and process references, including multiple installed versions.
+- **`php_inventory.py`**, which runs on a Linux server to find PHP runtimes, modules, shared libraries and process references, including multiple installed versions.
 
 Use them together to investigate which websites appear to use PHP, where PHP-related files exist on the server, and which installations need further verification or removal. Neither tool automatically maps every website to its runtime, guarantees complete discovery, or proves that a system is patched.
 
@@ -31,16 +31,8 @@ Keep the crawler alongside the extracted inventory kit:
 
 ```text
 php_site_audit.py
-php-inventory-kit.zip
-php-inventory-kit/
-    php_inventory.py
-    README.md
-    examples/
-        multiple-versions-output.txt
-        vulnerable-output.txt
+php_inventory.py
 ```
-
-The ZIP contains the Linux inventory tool, its original documentation and simulated output examples. The crawler is a separate download. This combined README does not modify either script.
 
 ## 1. Website crawler
 
@@ -138,11 +130,6 @@ Use within your authorised assessment scope. GET-only crawling can still trigger
 ### Requirements and extraction
 
 Linux and Python 3.9 or later. No third-party Python packages are required.
-
-```bash
-unzip php-inventory-kit.zip
-cd php-inventory-kit
-```
 
 ### Scan the server
 
