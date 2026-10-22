@@ -1,0 +1,4019 @@
+{
+  "timestamp_utc": "2026-10-22T14:23:57.448514+00:00",
+  "limitations": [
+    "DNS does not detect PHP. No subdomain brute force or DNS zone transfer is performed.",
+    "Versions are advertised claims, not verified installed versions or vulnerability findings.",
+    "A hidden version or absent signal does not prove PHP is absent or patched.",
+    "CMS assets can be static or stale. Only explicitly listed hosts/services are visited.",
+    "robots.txt failures/redirects block crawling that origin; query links and JavaScript are not crawled.",
+    "GET requests only; no forms submitted. GET endpoints can still have side effects.",
+    "Request timeouts are best effort, not a strict overall runtime deadline."
+  ],
+  "dns": {
+    "accigo.se": {
+      "A": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "AAAA": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "CNAME": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "NS": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "MX": {
+        "values": [],
+        "status": "NoNameservers"
+      }
+    },
+    "www.accigo.se": {
+      "A": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "AAAA": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "CNAME": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "NS": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "MX": {
+        "values": [],
+        "status": "NoNameservers"
+      }
+    },
+    "blog.accigo.se": {
+      "A": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "AAAA": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "CNAME": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "NS": {
+        "values": [],
+        "status": "NoNameservers"
+      },
+      "MX": {
+        "values": [],
+        "status": "NoNameservers"
+      }
+    }
+  },
+  "sites": [
+    {
+      "seed": "https://accigo.se/",
+      "php_assessment": "PHP ecosystem clues",
+      "advertised_versions": [],
+      "pages": [
+        {
+          "url": "https://accigo.se/",
+          "depth": 0,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/08/Accigo-Digital-ledare-2.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/10/MS-Cloud-logo.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/bild-5-846x960-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/modernwork.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/1715946718102.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/Accigo-Dig-App-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/Data-AI-Azure-2-960x587-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/MS-Infrastructure-logo-960x587-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/azure-2.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/PowerPlatform_scalable.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Microsoft-365.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Dynamics365_scalable.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/BusinessCentral_scalable.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Sami-Al-Zubaydy-Mattias-Skoog-2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/kontakt/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/02/F0A9413-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Informationssa\u0308kerhet_webb-4-e1663705953842-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/Ola-Brehm-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/Benny-Heinby-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/fleka2ahvfokivvv3mfw-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Christoffer-Ring.Lisa-Lindvall-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-business-central/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Malin-Sjo\u0308berg.5-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Alma-Fredriksson-Jesper-Fahle\u0301n-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Selc\u0327uk-Albayrak.Serkan-Arda-Yilal.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lukas-Von-RosenSelc\u0327uk-Albayrak-2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/02/F0A9413-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-customer-insights/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Julia-Ba\u0308cklund-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Ska\u0308rm.5-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/02/F0A9413-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-sales/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Martin-Stora\u0308ng.Emil-O\u0308sterman-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/04/Malin-Sjo\u0308berg.3-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Ska\u0308rm.5-480x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/06/rs_serious-300x300.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/10/Joel-Jonson-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/10/charlie-hedhav--300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lukas-Von-RosenSelc\u0327uk-Albayrak-2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-supply-chain/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Lisa-Lindvall.Gustaf-Larsson-e1768397309726-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Martin-Stora\u0308ng.Emil-O\u0308sterman-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/05/Martin-Stora\u0308ng-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-customer-service/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Johan-Ma\u0308ki.1-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/F0A1911_webb-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Cecilia-Landsberger-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/05/Martin-Stora\u0308ng-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-finance/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Bjo\u0308rn-Clemenson.Elin-Melkersson-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mattias-Skoog-Unn-Zachrison-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/05/Martin-Stora\u0308ng-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/F0A1242_webb-600x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Accigo_F0A8706_webb-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Telge-logo.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/05/Malin-Sjo\u0308berg-Amanda-Oskarsson-e1714985889947-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/07/ronneby.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/Accigo_grupp_prat_webb_37-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/swedishmatchlogotype_blue_1200x.webp"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/DAPI-e1732264778796-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/12/Accigo_grupp_prat_webb_29-600x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/05/Lisa-och-user-adoption-480x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Informationssa\u0308kerhet_webb-4-e1663705953842-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8263-e1678114201556-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/09/Informationssa\u0308kerhet_webb-3-e1663705506416-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/microsoft-365-adoption/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/11/Hanna-Dahl-Sofia-Wikstro\u0308m-5-1-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1-600x600.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Datadriven-kultur.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ha\u030allbar-sa\u0308kerhet.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Verksamhetsfo\u0308rsta\u030aelse.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Accigo_F0A8715_webb-600x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/Accigo_grupp_prat_webb_37-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/swedishmatchlogotype_blue_1200x.webp"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Accigo_F0A8706_webb-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Telge-logo.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/08/4-Placeholder-1920x1080-1-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/DAPI-e1732264778796-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/Informationssakerhet_webb-10-e1678113635752-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8263-e1678114201556-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A7994-e1678114523409-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8160-e1678173060686-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8129-e1678173210225-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/informationssakerhet-microsoft/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/David-Effemey.Fanny-Lindgren-e1781762432698-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Maria-Viggeborn.Charlie-Hedhav.3-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ha\u030allbar-sa\u0308kerhet.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Verksamhetsfo\u0308rsta\u030aelse.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Samarbete-Ai-Ma\u0308nniska.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/12/Sofia-Skoghagen.Birgitta-Ekman-Lissga\u0308rde.4-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Informationssa\u0308kerhet_webb-4-e1663705953842-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/09/Informationssa\u0308kerhet_webb-3-e1663705506416-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Vincent-Vukovic-300x300.jpeg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/07/Angelique-Dawnbringer-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/Informationssakerhet_webb-7-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/microsoft-employee-experience/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Bjo\u0308rn-Clemenson.Elin-Melkersson-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Nathalie-Liljedal-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Christoffer-Ring.Lisa-Lindvall-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/04/DAPI-480x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/accigo_webb-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/accigo_webb-3-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/10/Accigo_webb_059-1-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/09/Informationssa\u0308kerhet_webb-3-e1663705506416-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/05/Malin-Sjo\u0308berg-Amanda-Oskarsson-e1714985889947-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/07/ronneby.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Josefine-Ka\u0308llroos.Amelia-Ba\u030agevik-Gray.-Birgitta-Ekman-Lissga\u0308rde-1-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/microsoft-copilot-365/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Christoffer-Ring.Lisa-Lindvall-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Accigo_grupp_prat_webb_40-3-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/04/Vincent-Vucovic-Susanne-Welander-e1714378662809-1920x810.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Agil-leveransmodell.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8263-e1678114201556-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8160-e1678173060686-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A7994-e1678114523409-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/Informationssakerhet_webb-10-e1678113635752-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/05/Amelia-scaled-e1715092507607-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/security/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Lisa-Lindvall.Gustaf-Larsson-e1768397309726-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/Informationssakerhet_webb-9-600x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Christoffer-Ring.Lisa-Lindvall-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Informationssa\u0308kerhet_webb-4-e1663705953842-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/09/Informationssa\u0308kerhet_webb-3-e1663705506416-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/07/Angelique-Dawnbringer-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        }
+      ]
+    },
+    {
+      "seed": "https://www.accigo.se/",
+      "php_assessment": "PHP ecosystem clues",
+      "advertised_versions": [],
+      "pages": [
+        {
+          "url": "https://www.accigo.se/",
+          "depth": 0,
+          "status": 301,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy",
+          "redirect": "https://accigo.se/"
+        },
+        {
+          "url": "https://accigo.se/",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/08/Accigo-Digital-ledare-2.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/10/MS-Cloud-logo.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/bild-5-846x960-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/modernwork.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/1715946718102.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/Accigo-Dig-App-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/Data-AI-Azure-2-960x587-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/01/MS-Infrastructure-logo-960x587-1.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/azure-2.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/PowerPlatform_scalable.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Microsoft-365.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Dynamics365_scalable.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/BusinessCentral_scalable.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Sami-Al-Zubaydy-Mattias-Skoog-2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/kontakt/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/02/F0A9413-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Informationssa\u0308kerhet_webb-4-e1663705953842-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/Ola-Brehm-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/Benny-Heinby-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/fleka2ahvfokivvv3mfw-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Christoffer-Ring.Lisa-Lindvall-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-business-central/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Malin-Sjo\u0308berg.5-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Alma-Fredriksson-Jesper-Fahle\u0301n-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Selc\u0327uk-Albayrak.Serkan-Arda-Yilal.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lukas-Von-RosenSelc\u0327uk-Albayrak-2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/02/F0A9413-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-customer-insights/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Julia-Ba\u0308cklund-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Ska\u0308rm.5-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/02/F0A9413-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-sales/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Martin-Stora\u0308ng.Emil-O\u0308sterman-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/04/Malin-Sjo\u0308berg.3-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Ska\u0308rm.5-480x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/06/rs_serious-300x300.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/10/Joel-Jonson-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/10/charlie-hedhav--300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lukas-Von-RosenSelc\u0327uk-Albayrak-2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-supply-chain/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Lisa-Lindvall.Gustaf-Larsson-e1768397309726-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Martin-Stora\u0308ng.Emil-O\u0308sterman-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/05/Martin-Stora\u0308ng-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-customer-service/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Johan-Ma\u0308ki.1-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/F0A1911_webb-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Cecilia-Landsberger-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/05/Martin-Stora\u0308ng-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/verksamhetssystem/dynamics-365-finance/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Bjo\u0308rn-Clemenson.Elin-Melkersson-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mattias-Skoog-Unn-Zachrison-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/05/Martin-Stora\u0308ng-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/F0A1242_webb-600x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Accigo_F0A8706_webb-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Telge-logo.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/05/Malin-Sjo\u0308berg-Amanda-Oskarsson-e1714985889947-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/07/ronneby.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/Accigo_grupp_prat_webb_37-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/swedishmatchlogotype_blue_1200x.webp"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/DAPI-e1732264778796-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/12/Accigo_grupp_prat_webb_29-600x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/05/Lisa-och-user-adoption-480x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Informationssa\u0308kerhet_webb-4-e1663705953842-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8263-e1678114201556-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/09/Informationssa\u0308kerhet_webb-3-e1663705506416-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/microsoft-365-adoption/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/11/Hanna-Dahl-Sofia-Wikstro\u0308m-5-1-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1-600x600.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Datadriven-kultur.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ha\u030allbar-sa\u0308kerhet.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Verksamhetsfo\u0308rsta\u030aelse.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Accigo_F0A8715_webb-600x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/Accigo_grupp_prat_webb_37-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/11/swedishmatchlogotype_blue_1200x.webp"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Accigo_F0A8706_webb-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/02/Telge-logo.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/08/4-Placeholder-1920x1080-1-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/11/DAPI-e1732264778796-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/Informationssakerhet_webb-10-e1678113635752-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8263-e1678114201556-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A7994-e1678114523409-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8160-e1678173060686-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8129-e1678173210225-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/informationssakerhet-microsoft/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/David-Effemey.Fanny-Lindgren-e1781762432698-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Maria-Viggeborn.Charlie-Hedhav.3-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ha\u030allbar-sa\u0308kerhet.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Verksamhetsfo\u0308rsta\u030aelse.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Samarbete-Ai-Ma\u0308nniska.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/11/Lisa_Lindvall.Gustaf_Larsson-2-1-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/12/Sofia-Skoghagen.Birgitta-Ekman-Lissga\u0308rde.4-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Informationssa\u0308kerhet_webb-4-e1663705953842-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/09/Informationssa\u0308kerhet_webb-3-e1663705506416-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/Vincent-Vukovic-300x300.jpeg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/07/Angelique-Dawnbringer-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/Informationssakerhet_webb-7-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/microsoft-employee-experience/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Bjo\u0308rn-Clemenson.Elin-Melkersson-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Mikael-Persson.Andreas-Dahl.2-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Nathalie-Liljedal-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Christoffer-Ring.Lisa-Lindvall-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/04/DAPI-480x600.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/accigo_webb-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/08/accigo_webb-3-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/10/Accigo_webb_059-1-1-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2021/09/Informationssa\u0308kerhet_webb-3-e1663705506416-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/05/Malin-Sjo\u0308berg-Amanda-Oskarsson-e1714985889947-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/07/ronneby.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Josefine-Ka\u0308llroos.Amelia-Ba\u030agevik-Gray.-Birgitta-Ekman-Lissga\u0308rde-1-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/La\u0308tt-att-go\u0308ra-ra\u0308tt.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        },
+        {
+          "url": "https://accigo.se/modern-workplace/microsoft-copilot-365/",
+          "depth": 2,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.css"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-32x32.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-192x192.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/06/cropped-512px-2-180x180.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Hanna-Wackeroth-Sarah-Ayele-4-e1773670529940-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2026/03/Selc\u0327uk-Albayrak.3-e1773152675158-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/08/Contact_square.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/01/Christoffer-Ring.Lisa-Lindvall-1920x1080.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/01/Accigo_grupp_prat_webb_40-3-960x540.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/04/Vincent-Vucovic-Susanne-Welander-e1714378662809-1920x810.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Agil-leveransmodell.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Ma\u0308nsklig-fo\u0308ra\u0308ndring.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/03/Microsoft-solution-partner.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8263-e1678114201556-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A8160-e1678173060686-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/F0A7994-e1678114523409-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2022/09/Informationssakerhet_webb-10-e1678113635752-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2020/04/F0A8105-e1678113031764-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2023/03/Vattenfall-potrra\u0308tt-feb-20223133-scaled-e1678173674487-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2024/05/Amelia-scaled-e1715092507607-300x300.jpg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/uploads/2025/08/microsoft-cloud-solutions-partner-accigo-960x540.png"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/assets/site-logo-tagline.svg"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/plugins/cookievise/script.js"
+            },
+            {
+              "kind": "wordpress_asset",
+              "strength": "weak",
+              "evidence": "/wp-content/themes/sleek/dist/app.js"
+            }
+          ],
+          "server": "envoy"
+        }
+      ]
+    },
+    {
+      "seed": "https://blog.accigo.se/blogg/all",
+      "php_assessment": "PHP not detected",
+      "advertised_versions": [],
+      "pages": [
+        {
+          "url": "https://blog.accigo.se/blogg/all",
+          "depth": 0,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/microsoft-dynamics-365",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/microsoft-365",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/azure",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/microsoft-ai",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/user-adoption",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/business-central",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/digital-arbetsplats",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/power-platform",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/informationss\u00e4kerhet",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/verksamhetssystem",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/data-driven-transformation",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/topic/it-security",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        },
+        {
+          "url": "https://blog.accigo.se/blogg/ai-governance-sakerhet-agent-365",
+          "depth": 1,
+          "status": 200,
+          "truncated": false,
+          "fingerprints": [],
+          "server": "envoy"
+        }
+      ]
+    }
+  ],
+  "blog_run_timestamp_utc": "2026-10-22T14:24:09.772943+00:00"
+}
